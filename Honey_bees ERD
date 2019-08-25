@@ -1,0 +1,16 @@
+Honey_Bees
+--
+Bee_gender VARCHAR PK
+Habitat VARCHAR PK
+
+Captured
+--
+Missouri VARHAR FK >- Honey_bees
+Illinois VARCHAR FK  >- Honey_Bees
+Iowa
+Wisconsin
+
+Honey_Production
+--
+Total_produced INT FK >- Captured
+Year INT FK >- Captured
